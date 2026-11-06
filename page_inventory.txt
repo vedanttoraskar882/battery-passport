@@ -1,0 +1,551 @@
+
+==================================================
+PAGE: page-home
+==================================================
+<div class="page active" id="page-home">
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge"><span class="hero-bdot"></span> AI-Driven Battery Risk Intelligence</div>
+      <h1>Certify Trust. <span class="blue">Protect Every Margin.</span></h1>
+      <div class="hero-rule"></div>
+      <p class="hero-body">Battery Passport Network is an AI-driven battery-risk intelligence and certification platform for the UK's secondary consumer electronics industry. We unify electrochemical diagnostics, replacement authenticity forensics and post-sale outcome data into one commercial trust identity  so refurbishers know exactly which batteries are safe to resell, before the device ever leaves the warehouse.</p>
+      <div class="hero-btns">
+        <button class="btn-p" onclick="showPage('contact')">Book a Demo <i class="fas fa-arrow-right" style="margin-left:6px"></i></button>
+        <button class="btn-s" onclick="showPage('platform')">Explore the Platform</button>
+      </div>
+    </div>
+    <div class="dash-card">
+      <div class="dash-top">
+        <div><div class="dash-lbl">BPN Dashboard</div><div class="dash-title">Today's Battery Risk Snapshot</div></div>
+        <div class="live-wrap"><span class="live-dot"></span> LIVE</div>
+      </div>
+      <div class="score-row"><div class="s-icon si-c"><i class="fas fa-shield-halved"></i></div><div class="score-lbl">BPN Classification</div><div class="score-val">BPN-B · Verified</div></div>
+      <div class="score-row"><div class="s-icon si-g"><i class="fas fa-chart-line"></i></div><div class="score-lbl">Residual Commercial Life</div><div class="score-val">14 months</div></div>
+      <div class="score-row"><div class="s-icon si-e"><i class="fas fa-triangle-exclamation"></i></div><div class="score-lbl">Replacement Risk Flagged</div><div class="score-val">2 devices</div></div>
+      <div class="score-big">
+        <div class="sb-num">£1,180</div>
+        <div class="sb-info"><div class="lbl">Estimated Weekly Margin Protected</div><div class="sub">↑ from reduced post-sale returns</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec-dark">
+  <div class="container">
+    <div class="label-tag-w">Impact That Matters</div>
+    <h2 class="section-h2 h2-white">Validated ROI Across the UK Battery Value Chain</h2>
+    <div class="divider div-white"></div>
+    <p class="para-w" style="max-width:760px">Modelled across UK SME smartphone refurbishers, ITAD agencies and secondary distributors, Battery Passport Network's certification engine and BPN Taxonomy are built to deliver measurable margin protection  not theoretical projections.</p>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-num">20–35%</div><div class="stat-lbl">Reduction in post-sale battery returns and warranty claims across pilot deployments</div></div>
+      <div class="stat-card"><div class="stat-num">15–25%</div><div class="stat-lbl">Reduction in diagnostic bottlenecks and technician interpretation errors</div></div>
+      <div class="stat-card"><div class="stat-num">2–3</div><div class="stat-lbl">Months to positive ROI for a typical UK SME refurbisher</div></div>
+      <div class="stat-card"><div class="stat-num">4–6</div><div class="stat-lbl">Disconnected diagnostic tools replaced by one unified BPN dashboard</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec-light">
+  <div class="container">
+    <div class="label-tag">Our Core Capabilities</div>
+    <h2 class="section-h2 h2-dark">One Platform. Every Battery Decision.</h2>
+    <div class="divider div-blue"></div>
+    <p class="para-d" style="max-width:760px">Battery Passport Network links electrochemical diagnostics, replacement provenance and post-sale outcomes into one closed-loop commercial platform  diagnosing battery risk before it erodes margin, not after.</p>
+    <div class="plat-grid" style="margin-top:36px">
+      <div class="plat-card" id="mod-passport">
+        <div class="plat-img"><img src="https://images.unsplash.com/photo-1684430598817-0c77ec7babfd?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="digital identity circuit board close up" loading="lazy"><span class="pi-tag">Digital Identity</span></div>
+        <div class="plat-inner"><div class="el-badge">Module 01</div><h3>Battery Passport Network</h3><p>Fingerprints the behavioural and evidential profile of every battery, benchmarking degradation, replacement history and safety signals into a machine-readable trust identity.</p><div class="more-txt">Each processed device receives a standardised BPN-A to BPN-X classification, encoding electrochemical signals, technician repair records and post-sale performance into one commercial identity that travels with the device.</div><button class="expand-btn" onclick="toggleCard(this)">Learn More</button></div>
+      </div>
+      <div class="plat-card" id="mod-authenticity">
+        <div class="plat-img"><img src="https://images.unsplash.com/photo-1646821804389-9778ce2a4fd7?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="technician inspecting refurbished electronic component" loading="lazy"><span class="pi-tag">Authenticity</span></div>
+        <div class="plat-inner"><div class="el-badge">Module 02</div><h3>Replacement Authenticity Assessment</h3><p>Detects the root causes of hidden battery risk by analysing the delta between claimed replacement history and actual thermal/electrochemical behaviour.</p><div class="more-txt">Identifies verified, suspicious or unsafe components  protecting refurbishers from unverified counterfeit replacements that drive the 70% post-sale return bottleneck.</div><button class="expand-btn" onclick="toggleCard(this)">Learn More</button></div>
+      </div>
+      <div class="plat-card" id="mod-residual">
+        <div class="plat-img"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="analytics dashboard on laptop screen" loading="lazy"><span class="pi-tag">Prediction</span></div>
+        <div class="plat-inner"><div class="el-badge">Module 03</div><h3>Residual Commercial Life Prediction</h3><p>Simulates resale configurations using historical performance and post-sale outcome data to forecast the estimated months of commercial acceptability.</p><div class="more-txt">Connects initial battery conditions directly to financial outcomes  giving small refurbishers the strategic risk intelligence usually reserved for multinational buyback programmes.</div><button class="expand-btn" onclick="toggleCard(this)">Learn More</button></div>
+      </div>
+      <div class="plat-card" id="mod-eligibility">
+        <div class="plat-img"><img src="https://images.unsplash.com/photo-1667503842101-b3127fd4ce23?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="close up of lithium battery cell" loading="lazy"><span class="pi-tag">Resale Engine</span></div>
+        <div class="plat-inner"><div class="el-badge">Module 04</div><h3>Battery Resale Eligibility Engine</h3><p>Automatically decomposes complex batches of used devices into a structured resale decision  from Premium BPN-A to Blocked BPN-X  with no subjective technician interpretation.</p><div class="more-txt">Lets UK refurbishers scale second-life device volume without the crippling 70% post-sale return and warranty dispute bottleneck that currently stifles profitability.</div><button class="expand-btn" onclick="toggleCard(this)">Learn More</button></div>
+      </div>
+      <div class="plat-card" id="mod-federated">
+        <div class="plat-img"><img src="https://images.unsplash.com/photo-1526392269816-39d8ed656494?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="green circuit board macro detail" loading="lazy"><span class="pi-tag">Benchmarking</span></div>
+        <div class="plat-inner"><div class="el-badge">Module 05</div><h3>Federated Risk Benchmarking Network</h3><p>Shares anonymised Battery Passport Networks from thousands of UK refurbishers and distributors, continually improving predictive models without exposing sensitive business data.</p><div class="more-txt">The platform's defensible moat  every processed device makes the model smarter, letting an independent operator in Manchester benefit from failure trends observed in London.</div><button class="expand-btn" onclick="toggleCard(this)">Learn More</button></div>
+      </div>
+      <div class="plat-card" id="mod-compliance">
+        <div class="plat-img"><img src="https://images.unsplash.com/photo-1684430598817-0c77ec7babfd?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="printed circuit board audit detail" loading="lazy"><span class="pi-tag">Compliance</span></div>
+        <div class="plat-inner"><div class="el-badge">Module 06</div><h3>Operational Compliance Reporting</h3><p>Delivers audit-ready reports proving battery safety and traceability, aligned with incoming 2026/2027 EU/UK Battery Regulations and ICO data-wiping standards.</p><div class="more-txt">Maintains a high-fidelity digital log of every battery-risk interaction  no more paper trails lost at the bottom of a drawer when a compliance audit arrives.</div><button class="expand-btn" onclick="toggleCard(this)">Learn More</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec-alt">
+  <div class="container">
+    <div class="label-tag">Why Battery Passport Network</div>
+    <h2 class="section-h2 h2-dark">Built Exclusively for UK Circular Economy SMEs.</h2>
+    <div class="divider div-blue"></div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon"><i class="fas fa-bolt"></i></div><h4>Predictive, Not Reactive</h4><p>Our models predict commercial failure risk and residual life before a battery affects a client relationship or warranty claim, instead of just recording a static health percentage.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-flag"></i></div><h4>UK-Trained Intelligence</h4><p>Models trained on UK smartphone refurbishment behaviours, regional distributor pipelines and incoming EU/UK battery compliance requirements  hyper-localised for the British market.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-fingerprint"></i></div><h4>A Defensible Data Moat</h4><p>Every processed device, every replacement and every post-sale outcome strengthens the Federated Risk Benchmarking Network  intelligence competitors cannot simply copy or buy.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-sterling-sign"></i></div><h4>SME-First Pricing</h4><p>Tiered SaaS pricing starting at £100/month gives independent refurbishers the same trust equity multinational buyback programmes already rely on.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-diagram-project"></i></div><h4>Device &amp; Diagnostic Agnostic</h4><p>Ingests data from existing testing software, CSV uploads or API connections  no hardware lock-in, no need to replace your existing diagnostic stack.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-mobile-screen-button"></i></div><h4>Mobile-First for QC Technicians</h4><p>Live, prescriptive battery-risk intelligence delivered on the warehouse floor  not locked away in a desktop dashboard for head office only.</p></div>
+    </div>
+  </div>
+</section>
+</div><!-- /home -->
+
+<!-- ═══════════════ ABOUT ═══════════════ -->
+
+==================================================
+PAGE: page-about
+==================================================
+<div class="page" id="page-about">
+<section class="hero" style="min-height:auto;padding:clamp(60px,8vw,96px) 0">
+  <div class="container">
+    <div class="label-tag">About Battery Passport Network</div>
+    <h2 class="section-h2 h2-dark">Turning Hidden Battery Risk Into Verifiable Commercial Trust.</h2>
+    <div class="divider div-blue"></div>
+    <p class="para-d" style="max-width:800px">Battery Passport Network builds the world's most trusted digital ecosystem to create, verify and share battery lifecycle data across the value chain. Our AI-driven, end-to-end battery-risk intelligence platform captures, benchmarks and standardises the hidden electrochemical degradation of secondary batteries before a device is resold  turning a fragmented, uncertain diagnostic telemetry stream into permanent, verifiable organisational "Commercial Trust Equity."</p>
+  </div>
+</section>
+<section class="sec-light">
+  <div class="container">
+    <div class="label-tag">Vision &amp; Mission</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:32px" class="tw">
+      <div style="background:#fff;border:1px solid rgba(10,23,20,.12);border-radius:18px;padding:32px">
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--blue-dim);margin-bottom:12px">Mission</div>
+        <h3 style="font-family:var(--display);font-size:22px;font-weight:700;color:var(--text-dark);margin-bottom:16px">Enabling UK SMEs to Govern Their Own Battery Risk Intelligence</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:1.8">To enable UK SME refurbishers and secondary distributors to capture, standardise and govern their battery risk intelligence, maximising resale margins, eliminating unpredictable post-sale returns, and establishing verifiable Commercial Trust Equity.</p>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(10,23,20,.12);border-radius:18px;padding:32px">
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--blue-dim);margin-bottom:12px">Vision</div>
+        <h3 style="font-family:var(--display);font-size:22px;font-weight:700;color:var(--text-dark);margin-bottom:16px">The Global Standard for Secondary Battery Certification</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:1.8">We aspire to be the global standard for secondary battery-risk certification, fostering a future in which the circular electronics economy operates with absolute battery provenance, consistent post-sale reliability and sustainable, data-driven e-waste reduction.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec-alt">
+  <div class="container">
+    <div class="label-tag">Core Values</div>
+    <h2 class="section-h2 h2-dark">What Drives Battery Passport Network</h2>
+    <div class="divider div-blue"></div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon"><i class="fas fa-lightbulb"></i></div><h4>Innovation</h4><p>Ongoing enhancement of the Battery Passport Network and predictive modelling in tandem with changing battery technologies and EU/UK regulations.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-magnifying-glass-chart"></i></div><h4>Accuracy</h4><p>Commitment to evidential data integrity, forensic replacement authenticity and eliminating unpredictable post-sale battery failures.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-key"></i></div><h4>Sovereignty</h4><p>Allowing professional refurbishers to own their internal battery-risk data as a proprietary Commercial Trust Equity asset.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-gauge"></i></div><h4>Efficiency</h4><p>Bringing enterprise-grade, closed-loop diagnostic automation to SMEs through frictionless, hardware-agnostic API and CSV interfaces.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-handshake-angle"></i></div><h4>Empowerment</h4><p>Giving UK circular economy founders the technical foresight to scale second-life device volumes without the crippling bottleneck of post-sale returns.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-seedling"></i></div><h4>Sustainability</h4><p>Reducing premature device disposal and the carbon footprint tied to unnecessary replacement battery manufacturing across the UK circular economy.</p></div>
+    </div>
+  </div>
+</section>
+<section class="sec-light" id="founder-section">
+  <div class="container">
+    <div class="label-tag">Founder Fit</div>
+    <h2 class="section-h2 h2-dark">Meet the Founder</h2>
+    <div class="divider div-blue"></div>
+    <div style="background:#fff;border:1px solid rgba(10,23,20,.12);border-radius:18px;padding:clamp(20px,3vw,36px)">
+      <div style="width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--blue-dim),var(--ink));display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:24px;font-weight:800;color:#fff;margin-bottom:16px">FS</div>
+      <h3 style="font-family:var(--display);font-size:22px;font-weight:700;color:var(--text-dark);margin-bottom:4px">Faisal Rashid Sunka</h3>
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--blue-dim);margin-bottom:16px">Founder &amp; CEO · Battery Passport Network</div>
+      <p style="font-size:14px;color:var(--text-muted);line-height:1.8;max-width:800px">Faisal Rashid Sunka brings over two decades of hands-on operational expertise in mobile cell phone technical support, warehouse distribution, reverse logistics and commercial P&amp;L management. As logistics &amp; mobile cell phone technical supervisor at Bright King General Trading, he managed complex stock controls for technical mobile products, ensuring accurate inventory records and resolving technical issues  giving him direct insight into the daily realities of device diagnostics and repair workflows. His experience as a commercial manager handling financial forecasts, pricing strategy and profitability reporting directly informs the Residual Commercial Life Prediction and Commercial Trust Equity valuation features of the platform. This is exactly the hands-on domain mastery required to build a defensible, warehouse-ready workflow moat  designed by someone who has run the floor, not just studied it.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px">
+        <span style="background:rgba(20,217,125,.1);border:1px solid rgba(20,217,125,.25);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:10px;color:var(--blue-dim)">Bachelor of Commerce</span>
+        <span style="background:rgba(20,217,125,.1);border:1px solid rgba(20,217,125,.25);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:10px;color:var(--blue-dim)">Mobile Technical Support</span>
+        <span style="background:rgba(20,217,125,.1);border:1px solid rgba(20,217,125,.25);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:10px;color:var(--blue-dim)">Warehouse &amp; Logistics</span>
+        <span style="background:rgba(20,217,125,.1);border:1px solid rgba(20,217,125,.25);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:10px;color:var(--blue-dim)">Commercial P&amp;L Management</span>
+        <span style="background:rgba(20,217,125,.1);border:1px solid rgba(20,217,125,.25);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:10px;color:var(--blue-dim)">Reverse Logistics</span>
+        <span style="background:rgba(20,217,125,.1);border:1px solid rgba(20,217,125,.25);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:10px;color:var(--blue-dim)">Inventory &amp; Stock Control</span>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:32px" class="tw">
+      <div style="background:linear-gradient(135deg,var(--ink),var(--ink-deep));border-radius:18px;padding:32px;color:#fff">
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(20,217,125,.85);margin-bottom:12px">Exceptional Founder-Market Fit</div>
+        <h3 style="font-family:var(--display);font-size:19px;font-weight:700;margin-bottom:14px">Built by Someone Who Has Run the Warehouse Floor</h3>
+        <p style="font-size:14px;color:rgba(255,255,255,.8);line-height:1.8">Faisal has spent years managing daily technical support and logistics workflows for mobile devices, giving him direct insight into the subjective grading errors, unverified replacements and disjointed reactive workflows that currently plague UK secondary electronics SMEs. This ensures Battery Passport Network's roadmap is grounded in real operational problems, not theoretical laboratory diagnostics.</p>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(10,23,20,.12);border-radius:18px;padding:32px">
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--blue-dim);margin-bottom:14px">Track Record</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-mid)"><span style="color:var(--blue-dim);font-size:18px">✓</span> Managed complex stock controls for technical mobile products at Bright King General Trading</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-mid)"><span style="color:var(--blue-dim);font-size:18px">✓</span> Directly resolved recurring technical issues across high-volume mobile device inventory</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-mid)"><span style="color:var(--blue-dim);font-size:18px">✓</span> Led financial forecasting, pricing strategy and profitability reporting as a commercial manager</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-mid)"><span style="color:var(--blue-dim);font-size:18px">✓</span> Applied cost-control analysis to optimise resource allocation across warehouse operations</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-mid)"><span style="color:var(--blue-dim);font-size:18px">✓</span> Deep, first-hand exposure to the "Commercial Value Leakage" driving UK battery uncertainty</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div><!-- /about -->
+
+<!-- ═══════════════ PLATFORM ═══════════════ -->
+
+==================================================
+PAGE: page-platform
+==================================================
+<div class="page" id="page-platform">
+<section class="sec-dark">
+  <div class="container">
+    <div class="label-tag-w">The Full Platform</div>
+    <h2 class="section-h2 h2-white">The AI-Driven Battery Risk Intelligence Engine</h2>
+    <div class="divider div-white"></div>
+    <p class="para-w" style="max-width:760px">Battery Passport Network bridges the "trust gap" in the UK circular economy through an integrated, closed-loop certification platform  combining electrochemical diagnostics, replacement provenance and commercial resale outcomes into a single cloud-native, mobile-first dashboard for refurbishers, distributors and ITAD agencies.</p>
+  </div>
+</section>
+
+<section class="sec-alt">
+  <div class="container">
+    <div class="label-tag">Who It's For</div>
+    <h2 class="section-h2 h2-dark">Built for Every Player in the Battery Value Chain.</h2>
+    <div class="divider div-blue"></div>
+    <div class="why-grid">
+      <div class="why-card" id="seg-refurbisher"><div class="why-icon"><i class="fas fa-mobile-screen"></i></div><h4>SME Smartphone Refurbishers</h4><p>Independent operators needing a standardised, predictive risk taxonomy (BPN-A to BPN-X) to accurately price inventory and protect margins from unexpected returns.</p></div>
+      <div class="why-card" id="seg-itad"><div class="why-icon"><i class="fas fa-boxes-stacked"></i></div><h4>ITAD &amp; Enterprise Buyback Programmes</h4><p>Mid-market organisations handling high-volume corporate trade-ins, needing unified API-driven commercial memory across multiple processing sites.</p></div>
+      <div class="why-card" id="seg-distributor"><div class="why-icon"><i class="fas fa-truck-fast"></i></div><h4>Secondary Electronics Distributors</h4><p>High-volume logistics hubs where failure forensics and replacement authenticity assessments are critical to avoiding hidden, unsafe battery replacements.</p></div>
+      <div class="why-card" id="seg-insurer"><div class="why-icon"><i class="fas fa-file-shield"></i></div><h4>Device Insurers &amp; Warranty Providers</h4><p>Financial and operational businesses needing to accurately price warranty premiums based on true predictive residual life, not external cosmetic condition.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-recycle"></i></div><h4>Recyclers &amp; Second-Life Operators</h4><p>Recovery and reuse specialists needing verified battery provenance to route devices confidently between resale, repurpose and recycling pathways.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-landmark"></i></div><h4>Regulators &amp; Policy Makers</h4><p>Bodies overseeing incoming EU/UK Battery Regulations who need audit-ready, standardised traceability data across the secondary electronics sector.</p></div>
+    </div>
+  </div>
+</section>
+</div><!-- /platform -->
+
+<!-- ═══════════════ PROCESS / HOW IT WORKS ═══════════════ -->
+
+==================================================
+PAGE: page-process
+==================================================
+<div class="page" id="page-process">
+<section class="sec-light" style="padding-top:clamp(60px,8vw,96px)">
+  <div class="container">
+    <div class="label-tag">How It Works</div>
+    <h2 class="section-h2 h2-dark">From Cosmetic Grading to Predictive Battery Governance</h2>
+    <div class="divider div-blue"></div>
+    <div style="margin-top:50px">
+      <div class="process-step">
+        <div>
+          <div class="step-num">Phase 01 · Year 1</div>
+          <h3 class="step-h3">UK Soft Launch &amp; Product Validation</h3>
+          <p class="step-p">A London-focused launch trains the first machine-learning models on UK-specific secondary market data  smartphone refurbishment behaviours, distributor batch testing and incoming UK/EU compliance requirements. High-intensity pilots run across 5–10 London-based refurbishment facilities.</p>
+          <p class="step-p">Founder Faisal Rashid Sunka leads founder-led sales and pilot deployment, completing deep-dive market research interviews with 150+ potential UK SME refurbishers and confirming replacement authenticity forensics models on real UK secondary electronics datasets.</p>
+        </div>
+        <div class="step-img"><img src="https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="founding team validating the pilot programme" loading="lazy"></div>
+      </div>
+      <div class="process-step">
+        <div class="step-img" style="order:2"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="growth analytics dashboard on laptop" loading="lazy"></div>
+        <div style="order:1">
+          <div class="step-num">Phase 02 · Year 2</div>
+          <h3 class="step-h3">Full UK Rollout &amp; Model Refinement</h3>
+          <p class="step-p">The platform scales to 50–100 professional refurbishers and secondary distributors across Manchester, Birmingham and Bristol, with plug-and-play connectivity to major UK marketplaces, POS systems and inventory management tools.</p>
+          <p class="step-p">The team grows to 4–6, adding a senior data scientist and full-stack engineer to refine the Replacement Authenticity Assessment Framework and post-sale outcome feedback models, while recurring SaaS subscriptions scale across all pricing tiers.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div>
+          <div class="step-num">Phase 03 · Year 3</div>
+          <h3 class="step-h3">Scale, National Leadership &amp; EU Expansion</h3>
+          <p class="step-p">Battery Passport Network grows to 200+ UK professional firms, finalises the Federated Risk Benchmarking Network, and launches an API licensing model for third-party device insurers, warranty providers and marketplaces.</p>
+          <p class="step-p">The business becomes a recognised UK battery-risk certification platform, with market research and pilot programmes underway for expansion into EU circular economy hubs such as Berlin, Paris and Stockholm.</p>
+        </div>
+        <div class="step-img"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=900&auto=format&fit=crop" alt="city skyline representing international expansion" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec-alt">
+  <div class="container">
+    <div class="label-tag">Three-Year Trajectory</div>
+    <h2 class="section-h2 h2-dark">Modelled Growth, Year on Year</h2>
+    <div class="divider div-blue"></div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon"><i class="fas fa-sterling-sign"></i></div><h4>£959K Revenue by Year 3</h4><p>Revenue grows from £107,870 in Year 1 to £471,405 in Year 2 and £959,480 in Year 3 on the base-case financial plan.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-user-group"></i></div><h4>20+ UK Jobs Created</h4><p>The core team grows from founder-led execution in Year 1 to 20+ high-skill technical, data science and commercial roles by Year 5.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-chart-line"></i></div><h4>75+ Brands Onboarded in Year 1</h4><p>Active refurbisher and distributor brands grow from 5 in Month 4 to roughly 75 by the end of Year 1, across an expanding UK footprint.</p></div>
+    </div>
+  </div>
+</section>
+</div><!-- /process -->
+
+<!-- ═══════════════ MARKET ═══════════════ -->
+
+==================================================
+PAGE: page-market
+==================================================
+<div class="page" id="page-market">
+<section class="sec-dark">
+  <div class="container">
+    <div class="label-tag-w">Market Analysis</div>
+    <h2 class="section-h2 h2-white">A $99 Billion Global Refurbished Electronics Market by 2033</h2>
+    <div class="divider div-white"></div>
+    <p class="para-w" style="max-width:760px">The global refurbished smartphone and secondary electronics market is forecast to grow from approximately $49.29 billion in 2024 to $99.36 billion by 2033, an 8.1% CAGR. The UK e-waste recycling and refurbishment market alone is forecast to grow from $1.49 billion in 2024 to $6.42 billion by 2035, a 14.2% CAGR  against a backdrop of severe post-sale return pressure and mounting EU/UK Battery Regulation compliance requirements.</p>
+  </div>
+</section>
+<section class="sec-light">
+  <div class="container">
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h4>Top Operational Pain Points</h4>
+        <p>% of UK refurbisher/ITAD survey respondents affected</p>
+        <div class="chart-wrap"><canvas id="chartSector"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h4>Modelled Feature Demand</h4>
+        <p>Respondents rating feature "valuable" or "extremely valuable"</p>
+        <div class="chart-wrap"><canvas id="chartRootCause"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h4>Battery Passport Network vs. Competing Approaches</h4>
+        <p>Capability Comparison (0–5 Scale)</p>
+        <div class="chart-wrap"><canvas id="chartRadar"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h4>UK E-Waste &amp; Refurbishment Market Growth</h4>
+        <p>$ Billions, 2024–2035 (Forecast, 14.2% CAGR)</p>
+        <div class="chart-wrap"><canvas id="chartGrowth"></canvas></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec-alt">
+  <div class="container">
+    <div class="label-tag">Competitor Analysis</div>
+    <h2 class="section-h2 h2-dark">Comparison Table  Existing Approaches vs Battery Passport Network</h2>
+    <div class="divider div-blue"></div>
+    <div class="comp-wrap">
+      <table class="comp-table">
+        <thead><tr><th>Capability</th><th>Blancco / PhoneCheck</th><th>Back Market / OEM Screens</th><th>EV Passports / GBA</th><th class="hi">Battery Passport Network</th></tr></thead>
+        <tbody>
+          <tr><td>Closed-loop diagnostic to commercial outcome</td><td class="no">✗</td><td class="no">✗</td><td class="no">✗</td><td class="hi yes">✓</td></tr>
+          <tr><td>Replacement authenticity &amp; forensics</td><td class="no">✗</td><td class="no">✗</td><td class="no">✗</td><td class="hi yes">✓</td></tr>
+          <tr><td>UK-specific secondary market benchmarking</td><td class="no">✗</td><td class="no">General global</td><td class="no">✗</td><td class="hi yes">✓</td></tr>
+          <tr><td>Behavioural &amp; evidential DNA fingerprinting</td><td class="no">Limited</td><td class="no">Static % only</td><td class="no">✗</td><td class="hi yes">✓</td></tr>
+          <tr><td>Residual commercial life prediction</td><td class="no">✗</td><td class="no">✗</td><td class="no">✗</td><td class="hi yes">✓</td></tr>
+          <tr><td>Ease of adoption for UK SMEs</td><td class="no">Low (hardware lock-in)</td><td class="no">Moderate</td><td class="no">Low (tech-heavy)</td><td class="hi yes">✓ Agnostic + SME-focused</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+</div><!-- /market -->
+
+<!-- ═══════════════ PRICING ═══════════════ -->
+
+==================================================
+PAGE: page-pricing
+==================================================
+<div class="page" id="page-pricing">
+<section class="sec-light" style="padding-top:clamp(60px,8vw,96px)">
+  <div class="container">
+    <div class="label-tag">Pricing</div>
+    <h2 class="section-h2 h2-dark">Plans That Scale With Your Batch Volume</h2>
+    <div class="divider div-blue"></div>
+    <p class="para-d" style="max-width:760px">Tiered SaaS pricing built for the UK secondary electronics SME economy  from basic batch auditing to full-spectrum, API-enabled commercial trust identity generation.</p>
+    <div class="pricing-grid">
+      <div class="price-card" id="tier-auditor">
+        <div class="price-tier">Core Batch Audits</div>
+        <div class="price-title">BPN Auditor</div>
+        <div class="price-amount">£100<span>/mo</span></div>
+        <p class="price-desc">Basic batch uploads, CSV integrations and simple BPN-A to BPN-X classification archiving.</p>
+        <ul class="price-feat">
+          <li>Basic batch uploads &amp; CSV integrations</li>
+          <li>Simple BPN-A to BPN-X archiving</li>
+          <li>Single-brand dashboard</li>
+          <li>Email support</li>
+        </ul>
+        <button class="btn-s" style="width:100%;justify-content:center" onclick="showPage('contact')">Get Started</button>
+      </div>
+      <div class="price-card featured" id="tier-trust-pro">
+        <div class="feat-lbl">Most Popular</div>
+        <div class="price-tier">Full Diagnostic Sync</div>
+        <div class="price-title">Trust Identity Pro</div>
+        <div class="price-amount">£380<span>/mo</span></div>
+        <p class="price-desc">Advanced Replacement Authenticity Assessment, Residual Commercial Life prediction and diagnostic software sync.</p>
+        <ul class="price-feat">
+          <li>Everything in BPN Auditor</li>
+          <li>Replacement Authenticity Assessment</li>
+          <li>Residual Commercial Life prediction</li>
+          <li>Diagnostic software sync</li>
+          <li>Priority support</li>
+        </ul>
+        <button class="btn-p" style="width:100%;justify-content:center" onclick="showPage('contact')">Get Started</button>
+      </div>
+      <div class="price-card" id="tier-risk-sovereign">
+        <div class="price-tier">Enterprise Governance</div>
+        <div class="price-title">Risk Sovereign</div>
+        <div class="price-amount">£450<span>/mo</span></div>
+        <p class="price-desc">Custom post-sale failure forensics, secure marketplace API integrations and Federated Risk Benchmarking Network access.</p>
+        <ul class="price-feat">
+          <li>Everything in Trust Identity Pro</li>
+          <li>Custom post-sale failure forensics</li>
+          <li>Secure marketplace API integrations</li>
+          <li>Federated Risk Benchmarking Network access</li>
+          <li>Dedicated success management</li>
+        </ul>
+        <button class="btn-s" style="width:100%;justify-content:center" onclick="showPage('contact')">Talk to Sales</button>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:32px;font-size:13px;color:var(--text-muted)">Diagnostic Onboarding &amp; API Sync from £400 one-time · Commercial Risk Health Assessment from £450 one-time</p>
+  </div>
+</section>
+</div><!-- /pricing -->
+
+<!-- ═══════════════ FAQ ═══════════════ -->
+
+==================================================
+PAGE: page-faq
+==================================================
+<div class="page" id="page-faq">
+<section class="sec-light" style="padding-top:clamp(60px,8vw,96px)">
+  <div class="container">
+    <div class="label-tag">FAQ</div>
+    <h2 class="section-h2 h2-dark">Frequently Asked Questions</h2>
+    <div class="divider div-blue"></div>
+    <div class="faq-wrap">
+      <div class="faq-item open">
+        <div class="faq-q" onclick="toggleFAQ(this.parentElement)"><h4>What exactly does Battery Passport Network automate?</h4><span class="faq-icon">+</span></div>
+        <div class="faq-body">Battery Passport Network automates AI-driven battery-risk classification, replacement authenticity forensics, residual commercial life prediction and compliance reporting  unifying diagnostic data normally spread across 4–6 disconnected tools into one dashboard for QC technicians and operations managers.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFAQ(this.parentElement)"><h4>Do I need to replace my existing diagnostic tools?</h4><span class="faq-icon">+</span></div>
+        <div class="faq-body">No. Battery Passport Network is device and diagnostic agnostic, ingesting data via CSV uploads or API connections from your existing testing software  so you keep your current stack while gaining commercial trust identity intelligence on top of it.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFAQ(this.parentElement)"><h4>How is this different from a static battery health percentage?</h4><span class="faq-icon">+</span></div>
+        <div class="faq-body">Most diagnostic tools report a single static state-of-health percentage. Battery Passport Network analyses behavioural, thermal and evidential attributes to distinguish a stable original battery from a fast-degrading unverified replacement  even when both show the same generic health reading.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFAQ(this.parentElement)"><h4>What results can I realistically expect?</h4><span class="faq-icon">+</span></div>
+        <div class="faq-body">The platform is designed to reduce post-sale battery returns and warranty claims by 20–35%, and diagnostic bottlenecks by 15–25%, with a typical UK SME refurbisher reaching positive ROI within 2–3 months of onboarding.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFAQ(this.parentElement)"><h4>Is Battery Passport Network compliant with UK/EU regulations?</h4><span class="faq-icon">+</span></div>
+        <div class="faq-body">Yes. The platform is built around the incoming 2026/2027 EU/UK Battery Regulations, UK e-waste directives and Information Commissioner's Office (ICO) guidance on data wiping, with automated, audit-ready compliance records.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFAQ(this.parentElement)"><h4>How long does onboarding take?</h4><span class="faq-icon">+</span></div>
+        <div class="faq-body">Once your first diagnostic testing software and inventory management integration is stabilised, the configuration template of the Battery Passport Network is standardised  reducing onboarding for subsequent sites from weeks to hours.</div>
+      </div>
+    </div>
+  </div>
+</section>
+</div><!-- /faq -->
+
+<!-- ═══════════════ CONTACT ═══════════════ -->
+
+==================================================
+PAGE: page-contact
+==================================================
+<div class="page" id="page-contact">
+<section class="contact-hero">
+  <div class="container">
+    <div class="label-tag-w">Get In Touch</div>
+    <h2 class="section-h2 h2-white">Book a Demo of Battery Passport Network</h2>
+    <div class="divider div-white"></div>
+    <div class="contact-wrap">
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group"><label>Full Name</label><input type="text" required placeholder="Your name"></div>
+        <div class="form-group"><label>Business Email</label><input type="email" required placeholder="you@refurbisher.co.uk"></div>
+        <div class="form-group"><label>Business Type</label>
+          <select>
+            <option>SME Smartphone Refurbisher</option>
+            <option>ITAD / Enterprise Buyback Programme</option>
+            <option>Secondary Electronics Distributor</option>
+            <option>Device Insurer / Warranty Provider</option>
+            <option>Recycler / Second-Life Operator</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Message</label><textarea placeholder="Tell us about your batch volumes and what you'd like to see in a demo"></textarea></div>
+        <button class="btn-p" type="submit" style="width:100%;justify-content:center">Send Demo Request <i class="fas fa-arrow-right" style="margin-left:6px"></i></button>
+      </form>
+      <div class="contact-info">
+        <h3>Let's Protect Your Margins</h3>
+        <p class="sub">Whether you're running a single repair shop or a multi-site ITAD operation, our team will walk you through how Battery Passport Network fits your batch workflow.</p>
+        <div class="c-detail"><div class="ic"><i class="fas fa-envelope"></i></div><div><strong>Email</strong><span>batterypassportnetworkuk@outlook.com</span></div></div>
+        <div class="c-detail"><div class="ic"><i class="fas fa-globe"></i></div><div><strong>Website</strong><span>batterypassportnetwork.co.uk</span></div></div>
+        <div class="c-detail"><div class="ic"><i class="fas fa-location-dot"></i></div><div><strong>Location</strong><span>London, United Kingdom</span></div></div>
+        <div class="c-detail"><div class="ic"><i class="fas fa-user"></i></div><div><strong>Founder</strong><span>Faisal Rashid Sunka</span></div></div>
+        <div class="c-detail"><div class="ic"><i class="fas fa-shield-halved"></i></div><div><strong>Compliance</strong><span>UK GDPR · ICO Guidance · EU/UK Battery Regs</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+</div><!-- /contact -->
+
+<!-- ═══════════════ PRIVACY POLICY ═══════════════ -->
+
+==================================================
+PAGE: page-privacy
+==================================================
+<div class="page" id="page-privacy">
+<section class="sec-light" style="padding-top:clamp(60px,8vw,96px)">
+  <div class="container">
+    <div class="label-tag">Legal</div>
+    <h2 class="section-h2 h2-dark">Privacy Policy</h2>
+    <div class="divider div-blue"></div>
+    <p class="para-d" style="max-width:760px;margin-bottom:24px">Last updated: July 2026. Battery Passport Network ("BPN", "we", "us") is committed to protecting the personal and operational data of our customers, site users and website visitors in line with UK GDPR and the Data Protection Act 2018.</p>
+    <div style="display:flex;flex-direction:column;gap:20px;max-width:800px">
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">1. Data We Collect</h4><p class="para-d">Account and billing details, battery diagnostic and inventory data entered by operators, device replacement and repair records connected via integrations, and standard website analytics such as device type and pages visited.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">2. How We Use Data</h4><p class="para-d">To operate the AI battery-risk classification and forensics engine, generate BPN-A to BPN-X reports for your inventory, provide customer support, and improve our models using aggregated, de-identified operational patterns via the Federated Risk Benchmarking Network.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">3. Data Sharing</h4><p class="para-d">We do not sell personal or business data. Data is shared only with sub-processors required to run the platform (cloud hosting, diagnostic integration partners) under signed data processing agreements.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">4. Your Rights</h4><p class="para-d">Under UK GDPR you can request access to, correction of, or deletion of your personal data, and can object to certain processing. Contact us at batterypassportnetworkuk@outlook.com to exercise these rights.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">5. Data Retention &amp; Security</h4><p class="para-d">Operational data is retained for the duration of your subscription plus a limited period for legal and accounting purposes, and is encrypted in transit and at rest.</p></div>
+    </div>
+    <button class="btn-s" style="margin-top:32px" onclick="showPage('contact')">Questions About This Policy? Contact Us</button>
+  </div>
+</section>
+</div><!-- /privacy -->
+
+<!-- ═══════════════ TERMS OF SERVICE ═══════════════ -->
+
+==================================================
+PAGE: page-terms
+==================================================
+<div class="page" id="page-terms">
+<section class="sec-light" style="padding-top:clamp(60px,8vw,96px)">
+  <div class="container">
+    <div class="label-tag">Legal</div>
+    <h2 class="section-h2 h2-dark">Terms of Service</h2>
+    <div class="divider div-blue"></div>
+    <p class="para-d" style="max-width:760px;margin-bottom:24px">Last updated: July 2026. These Terms govern use of the Battery Passport Network platform by UK secondary electronics operators and their authorised staff. By subscribing, you agree to the terms below.</p>
+    <div style="display:flex;flex-direction:column;gap:20px;max-width:800px">
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">1. Subscription &amp; Billing</h4><p class="para-d">Plans are billed monthly on the BPN Auditor, Trust Identity Pro or Risk Sovereign tier selected at signup. Fees are payable in advance and are non-refundable except as required by law.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">2. Acceptable Use</h4><p class="para-d">You agree to use Battery Passport Network only for legitimate battery-risk certification and operational analytics, and not to attempt to reverse-engineer, resell, or misuse data belonging to other operators.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">3. Integrations &amp; Third Parties</h4><p class="para-d">Battery Passport Network connects to third-party diagnostic testing software and inventory management platforms. We are not responsible for outages or data accuracy issues originating from those third-party services.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">4. Liability</h4><p class="para-d">Battery Passport Network provides battery-risk classification and resale recommendations as decision support. Final resale, warranty and compliance decisions remain the responsibility of the operator.</p></div>
+      <div><h4 style="font-family:var(--display);font-size:16px;margin-bottom:6px;color:var(--text-dark)">5. Termination</h4><p class="para-d">Either party may terminate a subscription with 30 days' written notice. Access to historical BPN classification exports remains available for 30 days following termination.</p></div>
+    </div>
+    <button class="btn-s" style="margin-top:32px" onclick="showPage('contact')">Questions About These Terms? Contact Us</button>
+  </div>
+</section>
+</div><!-- /terms -->
+
+<!-- ═══════════════ BATTERY REGULATION COMPLIANCE ═══════════════ -->
+
+==================================================
+PAGE: page-fsa
+==================================================
+<div class="page" id="page-fsa">
+<section class="sec-light" style="padding-top:clamp(60px,8vw,96px)">
+  <div class="container">
+    <div class="label-tag">Legal</div>
+    <h2 class="section-h2 h2-dark">Battery Regulation Compliance</h2>
+    <div class="divider div-blue"></div>
+    <p class="para-d" style="max-width:760px;margin-bottom:24px">Battery Passport Network's compliance module is designed to help UK secondary electronics operators stay aligned with the incoming 2026/2027 EU/UK Battery Regulations, WEEE e-waste directives and ICO data-wiping guidance  though the operator remains legally responsible for on-site compliance.</p>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon"><i class="fas fa-clipboard-check"></i></div><h4>Digitised Battery-Risk Records</h4><p>Every diagnostic, replacement and resale decision is logged with timestamps, replacing paper technician notes with an auditable digital trail.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-triangle-exclamation"></i></div><h4>Hidden Risk Alerts</h4><p>Operators are alerted in real time when a battery shows signs of unverified replacement, thermal instability or counterfeit components.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-scale-balanced"></i></div><h4>Safety &amp; Traceability</h4><p>The Replacement Authenticity Assessment Framework and BPN-A to BPN-X taxonomy provide a robust, audit-ready trail for regulatory enquiries.</p></div>
+      <div class="why-card"><div class="why-icon"><i class="fas fa-folder-open"></i></div><h4>Audit-Ready Records</h4><p>Compliance history is exportable for environmental and consumer protection audits, with a full timestamped record per device batch.</p></div>
+    </div>
+    <button class="btn-s" style="margin-top:32px" onclick="showPage('contact')">Ask About Compliance Features</button>
+  </div>
+</section>
+</div><!-- /fsa -->
+
